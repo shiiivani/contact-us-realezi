@@ -64,3 +64,32 @@ document.querySelector("#open-form").addEventListener("click", function (e) {
     formContainer.classList.remove("hide");
   }, 500);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const tooltipContainer = document.querySelector(".tooltip-container");
+  const tooltip6 = document.querySelector(".tooltip6");
+  const phoneNumberModal = document.querySelector(".phone-number-modal");
+  const tooltip5 = document.querySelector(".tooltip5");
+  const mailModal = document.querySelector(".mail-modal");
+
+  document.addEventListener("click", function (event) {
+    if (!tooltipContainer.contains(event.target)) {
+      tooltipContainer.classList.remove("active");
+      phoneNumberModal.classList.remove("active");
+      mailModal.classList.remove("active");
+    }
+  });
+
+  tooltipContainer.addEventListener("click", function (event) {
+    event.stopPropagation();
+    tooltipContainer.classList.add("active");
+  });
+
+  tooltip6.addEventListener("click", function () {
+    phoneNumberModal.classList.toggle("active");
+  });
+
+  tooltip5.addEventListener("click", function () {
+    mailModal.classList.toggle("active");
+  });
+});
