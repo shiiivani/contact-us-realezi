@@ -1321,6 +1321,229 @@ h2 {
   }
 }
 
+@media screen and (max-width: 615px){
+  .tooltip-container {
+    padding: 0.5em 0.5em;
+    border-radius: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  .text svg{
+    width: 20px;
+    height: 20px;
+  }
+  .tooltip-container a svg{
+    width: 18px;
+    height: 18px;
+  }
+  #mail_logo{
+    width: 16px;
+    height: 16px;
+  }
+  .tooltip-container img{
+    width: 15px;
+    height: 15px;
+  }
+  .phone_image{
+    width: 20px;
+    height: 20px;
+  }
+  .tooltip5 {
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .tooltip2, .tooltip3{
+    padding: 9px;
+    border-radius: 50px;
+  }
+  /* Tooltip 1 */
+.tooltip-container.active .tooltip1 {
+  top: 135%;
+  left: 40%;
+}
+
+/* Tooltip 2 */
+.tooltip-container.active .tooltip2 {
+  top: -110%;
+  left: 55%;
+}
+
+/* Tooltip 3 */
+.tooltip-container.active .tooltip3 {
+  top: 25%;
+  left: 40%;
+}
+
+/* Tooltip 4 */
+.tooltip-container.active .tooltip4 {
+  top: 55%;
+  left: -210%;
+}
+
+/* Tooltip 5 */
+.tooltip-container.active .tooltip5 {
+  top: -55%;
+  left: -160%;
+}
+
+/* Tooltip 6 */
+.tooltip-container.active .tooltip6 {
+  top: -79%;
+  left: 35%;
+}
+
+/* Tooltip 7 */
+.tooltip-container.active .tooltip7 {
+  top: 120%;
+  left: 10%;
+}
+
+/* Tooltip 8 */
+.tooltip-container.active .tooltip8 {
+  top: 101%;
+  left: -150%;
+}
+
+/* Tooltip 9 */
+.tooltip-container.active .tooltip9 {
+  top: -110%;
+  left: -115%;
+}
+.modal.active {
+  width: max-content; /* Target final size */
+  height: auto; /* Automatically adjust height */
+  padding: 5px 10px;
+  opacity: 1;
+}
+#phone_no, #mail{
+  font-size: 0.8rem;}
+
+.mail-modal {
+  left: -180px;
+  top: -90%;
+}
+#mail_model_logo{
+  width: 15px;
+}
+.phone-number-modal {
+  left: 40px;
+  top: -20px;
+}
+} 
+@media screen and (max-width: 475px){
+  .tooltip-container {
+    padding: 0.4em 0.4em;
+    border-radius: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+  }
+  
+  .text svg{
+    width: 17px;
+    height: 17px;
+  }
+  .tooltip-container a svg{
+    width: 16px;
+    height: 16px;
+  }
+  #mail_logo{
+    width: 16px;
+    height: 16px;
+  }
+  .tooltip-container img{
+    width: 15px;
+    height: 15px;
+  }
+  .phone_image{
+    width: 18px;
+    height: 18px;
+  }
+  .tooltip5 {
+    padding: 8px;
+    border-radius: 50px;
+  }
+  .tooltip2, .tooltip1, .tooltip3, .tooltip6, .tooltip4, .tooltip7{
+    padding: 8px;
+    border-radius: 50px;
+  }
+  /* Tooltip 1 */
+.tooltip-container.active .tooltip1 {
+  top: 135%;
+  left: 40%;
+}
+
+/* Tooltip 2 */
+.tooltip-container.active .tooltip2 {
+  top: -110%;
+  left: 55%;
+}
+
+/* Tooltip 3 */
+.tooltip-container.active .tooltip3 {
+  top: 25%;
+  left: 40%;
+}
+
+/* Tooltip 4 */
+.tooltip-container.active .tooltip4 {
+  top: 60%;
+  left: -220%;
+}
+
+/* Tooltip 5 */
+.tooltip-container.active .tooltip5 {
+  top: -55%;
+  left: -180%;
+}
+
+/* Tooltip 6 */
+.tooltip-container.active .tooltip6 {
+  top: -79%;
+  left: 35%;
+}
+
+/* Tooltip 7 */
+.tooltip-container.active .tooltip7 {
+  top: 120%;
+  left: 0%;
+}
+
+/* Tooltip 8 */
+.tooltip-container.active .tooltip8 {
+  top: 101%;
+  left: -150%;
+}
+
+/* Tooltip 9 */
+.tooltip-container.active .tooltip9 {
+  top: -110%;
+  left: -115%;
+}
+.modal.active {
+  width: max-content; /* Target final size */
+  height: auto; /* Automatically adjust height */
+  padding: 3px 3px;
+  opacity: 1;
+}
+#phone_no, #mail{
+  font-size: 0.7rem;}
+
+.mail-modal {
+  left: -120px;
+  top: -90%;
+}
+#mail_model_logo{
+  display: none;
+}
+.phone-number-modal {
+  left: 20px;
+  top: -30px;
+}
+#phone_model_logo{
+  display: none;
+}
+} 
+
 @media screen and (max-width: 560px) {
   /* Footer */
   .footer {
